@@ -1,24 +1,29 @@
+# 🌞 Summer Chores Project
 
-# 🌞 Summer Chores (Callback and Promise Versions)
+This project demonstrates **asynchronous programming** in JavaScript using three different techniques:
+1. **Callbacks**
+2. **Promises**
+3. **Async/Await**
 
-This project demonstrates **asynchronous programming** in JavaScript using both **callbacks** and **Promises**.
-
-Each file simulates a series of chores that take different amounts of time to complete.  
-There’s also a random chance the person might "fall asleep" and stop before finishing all chores.
+Each version simulates a person completing a series of summer chores, each taking a different amount of time.  
+The program also includes a small random chance that the person “falls asleep” and doesn’t complete the next chore — demonstrating how to handle both success and failure in asynchronous code.
 
 ---
 
-## 🧠 Versions Included
+## 🧩 Versions Included
+
 | File | Description |
 |------|--------------|
-| `callbackVersion.js` | Demonstrates asynchronous operations using nested callbacks. |
-| `promiseVersion.js` | Demonstrates asynchronous operations using chained Promises. |
+| `callbackVersion.js` | Demonstrates asynchronous operations using **nested callbacks**. |
+| `promiseVersion.js` | Demonstrates asynchronous operations using **chained Promises**. |
+| `asyncAwaitVersion.js` | Demonstrates asynchronous operations using **modern async/await syntax**. |
 
 ---
 
 ## ⏱️ Time to Complete Each Chore
-| Chore | Time (ms) |
-|--------|------------|
+
+| Chore | Time (milliseconds) |
+|--------|----------------------|
 | Mow the yard | 2000 |
 | Weed eat the yard | 1500 |
 | Trim the hedges | 1000 |
@@ -27,10 +32,8 @@ There’s also a random chance the person might "fall asleep" and stop before fi
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Project
 
-1. Clone this repository:
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/tabner0320/summer-chores.git
-
-
